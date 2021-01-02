@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/Acordeon.css">
+</head>
+<body>
+    <h1>ACORDEÓN</h1>
+    <div id="acordeon">
+        <h3 onclick="abrirCerrar('sec1','hdr1')" id="hdr1" class="activa">Item #1</h3>
+        <div id="sec1" class="activa">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolor nostrum ullam inventore
+                aliquam ea reiciendis vel soluta minus, qui sunt laboriosam labore, quae assumenda nihil repudiandae?
+                Aperiam, ipsa temporibus.</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec2','hdr2')" id="hdr2" class="inactiva">Item #2</h3>
+        <div id="sec2" class="inactiva">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim blanditiis veritatis hic commodi ea,
+                corrupti perspiciatis ipsa, iste voluptatum velit delectus facilis eaque dolorum, porro eligendi animi
+                laborum est recusandae.</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec3','hdr3')" id="hdr3" class="inactiva">Item #3</h3>
+        <div id="sec3" class="inactiva">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis iste tempore, libero nobis cum modi
+                velit quia ducimus nihil alias amet, numquam deserunt perspiciatis iure laudantium sapiente commodi quas
+                iusto!</p>
+        </div>
+        <h3 onclick="abrirCerrar('sec4','hdr4')" id="hdr4" class="inactiva">Item #4</h3>
+        <div id="sec4" class="inactiva">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aperiam harum nisi rem, assumenda
+                porro dicta doloremque, dolorum dolorem accusantium mollitia dolores voluptas error repudiandae hic eum
+                laudantium commodi officia!</p>
+        </div>
+    </div>
+    <footer>
+        <button class="home" onclick="location.href='index.html'">HOME</button>
+    </footer>
+    <script src="./js/Acordeon.js"></script>
+</body>
+</html>

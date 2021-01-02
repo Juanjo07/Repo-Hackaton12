@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    padding: 30PX;
+    color: grey;
+}
+.menu{
+    width:260px;
+    margin:60px auto 0;
+    cursor:pointer
+}
+    
+.title{
+    width:100%;
+    box-sizing:border-box;
+    background:rgb(242, 242, 242);
+    padding:14px;
+    border-radius:40px;
+    position:relative;
+    box-shadow:0 0 10px 0px rgb(128, 128, 128);
+    color:#505050;
+    font-size: 20px;
+}
+
+.dropdown{
+    width:100%;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 0 40px -10px #000;
+    color:#505050;
+    margin-top:24px;
+    max-height:0;
+    overflow:hidden;
+    transition:all .5s
+}
+.desplegado{
+    max-height:250px
+}
+.arrow{
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid #fff;
+    position:absolute;
+    right:20px;
+    bottom:-24px;
+    display:none
+}
+.arrow.gone{
+    display:block
+}
+.r{
+    padding:15px 14px;
+    margin:0;
+    transition:all .1s
+}
+
+.r:hover{
+    background:orange;    
+    color:rgba(255,255,255,0.8);
+    box-shadow:0 0 30px -10px #000
+}
+
+.home {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 15px;   
+    background-color: darkorange;
+    padding: 5px;
+    margin: 0px 2px;
+    border-radius: 100px;
+    cursor: pointer;  
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

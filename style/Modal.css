@@ -1,0 +1,97 @@
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  padding: 30PX;
+  color: grey;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+    
+.modal.is-active {
+  display: flex;
+}
+    
+.modal .modal__template {
+  background: #fff;
+  max-width: 600px;
+}
+    
+.modal header {
+  padding: 20px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
+.modal .close {
+  background: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+    
+.modal .modal__body {
+  padding: 20px;
+}
+    
+.modal .modal__footer {
+  padding: 20px;
+  background: orange;
+  color: white;
+  font-weight: bold; 
+}
+    
+      
+.btnmodal {
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding: 20px;
+  margin: 50px 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;  
+}
+    
+.home {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 15px;   
+  background-color: darkorange;
+  padding: 5px;
+  margin: 0px 2px;
+  border-radius: 100px;
+  cursor: pointer;  
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  }
+  
+button, span{
+  cursor: pointer;
+}
