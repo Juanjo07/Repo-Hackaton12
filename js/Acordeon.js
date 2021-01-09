@@ -1,14 +1,14 @@
 function abrirCerrar(id, hd){
-    var sec = document.getElementById(id);
-    var hdr = document.getElementById(hd);
-    var div = document.getElementsByTagName('div');
-    var h3 = document.getElementsByTagName('h3');
+    let sec = document.getElementById(id);
+    let hdr = document.getElementById(hd);
+    let div = document.getElementsByTagName('div');
+    let h3 = document.getElementsByTagName('h3');
     
     if(sec.className == "activa"){
       sec.className = "inactiva";
       hdr.className = "inactiva";
     } else {   
-      for(var x=1,y=0; x<5; x++,y++){
+      for(let x=1,y=0; x<5; x++,y++){
         div[x].className = "inactiva";
         h3[y].className = "inactiva";
       }   

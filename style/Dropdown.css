@@ -49,13 +49,13 @@ h1{
 .arrow.gone{
     display:block
 }
-.r{
+.fil{
     padding:15px 14px;
     margin:0;
     transition:all .1s
 }
 
-.r:hover{
+.fil:hover{
     background:orange;    
     color:rgba(255,255,255,0.8);
     box-shadow:0 0 30px -10px #000
